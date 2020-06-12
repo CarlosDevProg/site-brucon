@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Carlos Eduardo Salvador" />
+    <meta name="description" content="Brucon Equipamentos Rodoviários e Hidráluicos, compra, venda e manutenção de caminhão de combate a incêndios, caminhão comboio, oficina e outros, alongamento de chassi. Serviços de torno, caldeiraria e adaptações em caminhões e equipamentos agrícolas." />
+    <meta name="keywords" content="caminhão, serviços, torno, caldeiraria, caminhão oficina, caminhão bombeiro, caminhão comboio, manutenção, compra, venda, hidráulico, rodoviário" />
+    <meta name="copyright" content="&copy; BRUCON EQUIPAMENTOS RODOVIÁRIOS E HIDRÁULICOS" />
+    <title>Serviços</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- CSS Personalizado-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    <!-- Fontes Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+
+</head>
+<body>
+    <header>
+        <img src="#" height="90" class="d-inline-block align-top" alt="Logo Brucon Equipamentos Rodoviários e Hidráulicos" />
+    </header>
+    <nav class="navbar navbar-expand-lg bg-nav">
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase">
+                <li class="nav-item menu">
+                    <a href="index.html" class="nav-link px-lg-3">Home</a>
+                </li>
+                <li class="nav-item menu">
+                    <a href="empresa.html" class="nav-link px-lg-3">Empresa</a>
+                </li>
+                <li class="nav-item menu">
+                    <a href="servicos.html" class="nav-link px-lg-3 active">Serviços</a>
+                </li>
+                <li class="nav-item menu">
+                    <a href="contato.html" class="nav-link px-lg-3">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <table>
+        <tr>
+            <td><img src="assets/img/torno.jpg" class="torno" alt="Serviços de Tornearia"></td>
+            <td class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, atque eos quas at eius nemo consequuntur sed commodi veritatis. Nulla corporis reiciendis ratione, et quia corrupti soluta facere quod sapiente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor at inventore consequatur nobis, libero minus beatae vel veritatis deserunt voluptatibus sint dicta repudiandae eaque possimus nihil, incidunt iure. Explicabo, repellendus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit nostrum libero rerum, ducimus obcaecati laboriosam, hic ipsam est commodi eveniet quaerat ea quis quae molestiae itaque accusamus facere illo similique!</td>
+        </tr>
+        <tr>
+            <td><img src="assets/img/caldeiraria.jpg" class="caldeiraria" alt="Serviços de Caldeiraria"></td>
+            <td class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at inventore dolore modi libero, excepturi minus ab necessitatibus id dignissimos fugiat consequatur nesciunt in iusto sequi eveniet quam aspernatur praesentium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid architecto, totam voluptate ducimus dolorum ipsa voluptates fuga doloribus eaque. Doloremque, optio cum repudiandae fuga est laboriosam at dicta eos. Iure? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates error natus temporibus labore ipsa. Beatae, at fugiat amet recusandae odio pariatur voluptates aspernatur, accusantium repellendus cupiditate eaque similique non.</td>
+        </tr>
+    </table>
+
+    <br />
+    <br />
+    <div id="map" class="container mb-0"></div>
+    <!-- Rodape -->
+    <footer class="container-fluid bg-rodape footer text-center">
+        <div class="container">
+            <div>
+                <h4 class="text-uppercase mb-4">Brucon Equipamentos Rodoviários e Hidráulicos</h4>
+                <p class="text-uppercase mb-4">Rua Angela Berbel Pagano, 876 - Jardim Alvorada</p>
+                <p class="text-uppercase mb-4">Cravinhos - SP</p>
+            </div>
+            <div>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+                <a href="https://bit.ly/37n005l" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;" target="_blank"><i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="container"><small>Site Desenvolvido por <a href="https://www.seswebworld.com.br" class="copyright" target="_blank">S e S Web World&copy;</a> 2020</small></div>
+    </footer>
+
+     <!-- jQuery, Bootstrap, JavaScript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+                         
+    <!-- API Google Maps -->
+    
+    <script>
+        function initMap() { 
+        // Localização da Brucon Equipamentos
+           var brucon = {center: new google.maps.LatLng(-21.356914, -47.723936), zoom:17};
+        // O mapa, centralizado na Brucon
+            var map = new google.maps.Map(document.getElementById('map'), brucon);
+        // Marcação posicionada na Brucon Equipamentos
+            var ponto = new google.maps.LatLng(-21.356914, -47.723936);
+            var marker = new google.maps.Marker({position: ponto, map: map, title: "Brucon Equipamentos Rodoviários e Hidráulicos"});
+                        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWYswCztgapzYiy4dQCxNCPVDzDvFes9w&callback=initMap"></script>
+</body>
+</html>
