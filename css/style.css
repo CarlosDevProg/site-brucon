@@ -9,9 +9,16 @@ div#map {
     height: 350px;
 }
 
+/* Header */
+img.logo {
+    margin: 5px 10px 5px 0px;
+    width: 99%;
+    height: 120px;
+}
+
 /* Menu de navegação */
 nav.bg-nav {
-    background-color: #191970;
+    background-color: #000d63;
 }
 li.menu a {
     color: #F9DF3C;
@@ -23,7 +30,7 @@ li.menu a {
   
 li.menu a:hover, li.menu a:focus {
     color: white;
-    background-color: #191970;
+    background-color: #000d63;
     height: 40px;
     border-radius: 5px;
     text-transform: uppercase;
@@ -31,7 +38,7 @@ li.menu a:hover, li.menu a:focus {
     font-size: 18px;
 }
 li.menu a.active {
-    color: #191970;
+    color: #000d63;
     background-color: #F9DF3C;
     height: 40px;
     border-radius: 5px;
@@ -107,7 +114,7 @@ td.description {
     font-weight: bold;
 }
 .bg-rodape {
-    background-color: #191970;
+    background-color: #000d63;
 }
 a.copyright {
     color: #f3364c;
